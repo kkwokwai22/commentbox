@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.5"
+    "react-scripts": "0.8.5",
+    "build:watch": "babel . --watch --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --"
+
   },
   "dependencies": {
     "axios": "^0.15.3",
